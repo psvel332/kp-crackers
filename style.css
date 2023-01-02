@@ -5,7 +5,10 @@
 }
 
 .text-col:hover{
-    border-bottom: solid rgb(230, 30, 213);
+    border-bottom:2px solid rgb(230, 30, 213);
+}
+.text-col{
+  padding-bottom: 11px;
 }
 .img5{
     /* border:2px solid rgb(7, 145, 209); */
@@ -47,5 +50,4 @@ box-shadow: 2px 3px 2px 3px rgb(255, 255, 255);
     
     
  }
-
  

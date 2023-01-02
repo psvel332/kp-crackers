@@ -1,0 +1,51 @@
+.backimg{
+    background-image: url(./images/bg2.png);
+    /* position: sticky;top: 0; */
+    
+}
+
+.text-col:hover{
+    border-bottom: solid rgb(230, 30, 213);
+}
+.img5{
+    /* border:2px solid rgb(7, 145, 209); */
+    background-image: url(./images/by3.png);
+    margin: inherit;
+
+}
+.m1{
+    background-image: url(./images/m1.png);
+}
+.crack:hover{
+    background-color: aqua;
+box-shadow: 2px 3px 2px 3px rgb(255, 255, 255);
+}
+.clch{
+    background-color: #5E17EB;
+    color: white;
+}
+/* Blink for Webkit and others
+(Chrome, Safari, Firefox, IE, ...)
+*/
+
+@-webkit-keyframes blinker {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+  }
+  .blink{
+      text-decoration: blink;
+      -webkit-animation-name: blinker;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-iteration-count:infinite;
+      -webkit-animation-timing-function:ease-in-out;
+      -webkit-animation-direction: alternate;
+  }
+ @media screen and (max-width:720px) {
+    .av{
+        flex-direction: column;
+    }
+    
+    
+ }
+
+ 

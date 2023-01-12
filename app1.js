@@ -1,5 +1,5 @@
 
-var productPrice = 999;
+var productPrice = 50;
 
 function addToCartBtnClicked()
 {
@@ -11,6 +11,7 @@ function addToCartBtnClicked()
     var productCost = document.querySelector(`[data-product-name-price="${name}"]`);
     var oldProductCost = document.querySelector(`[data-product-name-price="${name}"]`).innerHTML;
     productCost.innerHTML = parseInt(oldProductCost) + parseInt(price);
+
 }
 
 

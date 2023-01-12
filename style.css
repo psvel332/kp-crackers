@@ -50,4 +50,9 @@ box-shadow: 2px 3px 2px 3px rgb(255, 255, 255);
     
     
  }
+#addcart:hover{
+    background-color: #cef107;
+    color: rgb(20, 19, 19);
+}
+ @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap'); 
  
